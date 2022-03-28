@@ -61,6 +61,7 @@ img {
 
 .html{
   background-image: url(img/background.png)
+  width: 960px;
 }
 
 /*header styling*/
@@ -80,11 +81,12 @@ img {
 	text-align: left;
 }
 
-.main-nav li a {
+.main-nav li a{
 	background-color: #6DCFF6;
 	display: block;
 	padding: 10px;
 	box-sizing: border-box;
+	text-color: black;
 }
 .main-nav li {
 	background: #7CC576;
@@ -92,6 +94,7 @@ img {
 	padding: 1%;
 	width: 20%;
 	box-sizing: border-box;
+	text-color: black;
 }
 
 /*main content styling*/
