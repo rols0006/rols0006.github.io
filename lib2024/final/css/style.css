@@ -1,0 +1,338 @@
+/*http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS clearfix*/
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/*for fluid layout*/
+.col-main, .col-footer, img {
+	width: 100%;
+}
+/*text styling*/
+@charset "utf-8";
+
+body {
+
+	font-family: 'Oswald', serif;
+	font-family: 'light 300', sans-serif;
+}
+
+.section-title {
+	color: #72A9AE;
+}
+
+.footer {
+	color: #ffffff;
+}
+.footer-links {
+	color: #ffffff;
+}
+
+@font-face {
+  font-family: cooperHewiit;
+  src: url("fonts/cooperhewitt.otf");
+}
+.page-title {
+	font-family: "CooperHewitt-Heavy", serif;
+	color: #72A9AE;
+	font-size: 48px;
+}
+/*header styling*/
+.page-title {
+	background: #ffffff;
+	width: 100%;
+	padding: 20px;
+	margin: auto;
+	box-sizing: border-box;
+}
+.site-header{
+	background: #72A9AE;
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+	text-align: left;
+	text-decoration: none;
+	font-size: 26px;
+	padding-left: 15px;
+}
+
+.main-nav li a{
+  background-color: #72A9AE;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+.main-nav li {
+	background: #72A9AE;
+	float: left;
+	padding: 1%;
+	width: 20%;
+	box-sizing: border-box;
+	text-color: black;
+	transition-timing-function: linear;
+	transition-duration: 2s;
+}
+.main-nav li a:hover {
+	background-color: powderblue;
+}
+/*main content styling*/
+.main{
+	position: relative;
+	float: left;
+}
+.about{
+	width: 70%;
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	float: left;
+	text-align: left;
+	padding-right: 20px;
+	text-size: 16px;
+	padding-top: 25px;
+	padding-left: 15px;
+}
+.main-image {
+	width:  30%;
+	position:  relative;
+	display: inline-block;
+	box-sizing: border-box;
+	float: right;
+	padding-top: 25px;
+	padding-right: 69px;
+}
+
+table , th , td{
+	margin-left: 50px;
+	padding: 5px;
+	border: 1px solid;
+	border-color: black;
+}
+.table-title{
+	float: above;
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: left;
+	text-decoration: none;
+	font-size: 20px;
+}
+.profile-form {
+	position: relative;
+	width: 50%;
+	float: left;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: left;
+	padding-top: 25px;
+	padding-left: 15px;
+}
+.section-title {
+	text-align: left;
+	font-size: 26px;
+	display: inline-block;
+	box-sizing: border-box;
+	text-decoration: none;
+	padding-left: 15px;
+}
+button {
+	position: relative;
+	background-color: #72A9AE;
+	box-sizing: border-box;
+	display: inline-block;
+	font-family: "Oswald", serif;
+	font-family: "light 300", sans-serif;
+	font-size: 18px;
+}
+/*profile card styling*/
+.aside {
+	position: relative;
+	width: 50%;
+	float: right;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 25px;
+
+}
+.profile-card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	background-color: white;
+	max-width: 25%;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 25px;
+
+}
+.profile-title {
+	color: #72A9AE;
+	font-size: 22px;
+	text-align: center;
+}
+.profile-content {
+	font-size: 16px;
+	text-align: center;
+	margin: auto;
+}
+.fa-solid {
+	font-size: 100px;
+}
+
+/*footer styling*/
+.footer {
+	background: #454545;
+	padding: 15px;
+	width: 100%;
+	box-sizing: border-box;
+	font-color: #ffffff;
+}
+.footer a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+.footer-links {
+	position: relative;
+	background: #454545;
+	width: 33.33%;
+	box-sizing: border-box;
+	padding: 5px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
+.footer-social-media{
+	position: relative;
+	background-color: #454545;
+	width: 33.33%;
+	box-sizing: border-box;
+	padding: 5px;
+	display: inline-block;
+	float: right;
+	text-align: center;
+}
+
+.fa-brands {
+	font-size: 22px;
+	display: inline-block;
+}
+
+.footer-address {
+	position: relative;
+	background-color: #454545;
+	width: 33.33%;
+	box-sizing: border-box;
+	padding: 5px;
+	float: right;
+	text-align: center;
+	display: inline-block;
+}
+
+/*Tablet sized*/
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+	header {
+		background: #454545;
+	}
+}
+
+/*Tablets and bigger*/
+@media only screen and (min-width: 768px) {
+	header, main, footer {
+
+		max-width: 1280px;
+		margin: 0 auto;
+
+	}
+
+	.desktop-nav {
+		display: block;
+	}
+
+	.mobile-nav-container {
+		display: block;
+	}
+	.mobile-nav {
+		display: block;
+	}
+
+
+	.site-content {
+		float: left;
+		width: 70%;
+		box-sizing: border-box;
+	}
+
+	.site-sidebar {
+		float: left;
+		width: 30%;
+		box-sizing: border-box;
+	}
+
+	.col-footer {
+		width: 31%;
+		box-sizing: border-box;
+		margin: 0 1%;
+		padding: 10px;
+		float: left;
+	}
+}
+
+/*Phone sized*/
+@media only screen and (max-width: 768px) {
+	footer {
+		background: #454545;
+	}
+}
