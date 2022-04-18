@@ -129,7 +129,7 @@
 
 			<div id="email-container" class="form-elm">
 				<label for="email">Email</label>
-				<input type="email" name="email" id="email" placeholder="Enter email" required>
+				<input type="email" name="email" id="email" placeholder="Enter email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" required>
 			</div>
 			<br>
 			<div id="Address" class="form-elm">
@@ -167,7 +167,7 @@
 
 			<div id="PostalCode" class="form-elm">
 				<label for="postal">Postal Code</label>
-				<input type="text" name="postal" id="postal" placeholder="No spaces" required>
+				<input type="text" name="postal" id="postal" placeholder="No spaces" pattern="[a-z][0-9][a-z]+[0-9][a-z][0-9]" required>
 			</div>
 		<br>
 		<p><button type="submit">Submit</button></p>
